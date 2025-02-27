@@ -1,12 +1,12 @@
 function divideByThree(num) {
     /* Returns the passed in number argument divided by three. */
-    // Your code here
     return num / 3
 };
 
 function averageOfTwo(num1, num2) {
     /* Returns the average of two numbers, num1 and num2. */
-    // Your code here
+    let sum = num1 + num2
+    return sum / 2;
 };
 
 function averageOfFour(num1, num2, num3, num4) {
