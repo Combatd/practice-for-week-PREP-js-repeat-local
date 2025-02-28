@@ -31,7 +31,8 @@ function combineArrays(arr1, arr2) {
     a single array. **Hint**: Use the `Array.concat` method but be aware that
     calling this method won't permanently change, also known as **mutate**,
     either array. */
-    // Your code here
+    const combinedArrays = arr1.concat(arr2);
+    return combinedArrays;
 };
 
 function wordWithinArray(word, arr) {
