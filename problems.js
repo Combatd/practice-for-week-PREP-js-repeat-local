@@ -98,7 +98,15 @@ function isSubString(searchString, subString) {
     /* Takes in two strings, `searchString` and `subString`. Should return
     `true` if `subString` is a part of the`searchString`, regardless of upper
     or lower case, and `false` if otherwise. */
-    // Your code here
+    const searchStringWords= searchString.split(' ');
+
+    for (let i = 0; i < searchStringWords.length; i++) {
+      if (searchStringWords[i].toLowerCase() === subString) {
+        return true;
+      }
+    }
+    
+    return false;
 };
 
 function aCounter(word) {
